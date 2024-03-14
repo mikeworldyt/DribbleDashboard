@@ -104,7 +104,26 @@ body, html {
   margin-bottom: 20px;
 }
 
-section.top
+section.top {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+
+.exam {
+  background-color: var(--purple);
+  border-radius: var(--borderRadius);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 section.middle
 
