@@ -296,8 +296,10 @@ section.bottom {
 #profile {
   grid-area: p;
   background-color: #f9fafb;
-  padding: 0px 100px;
+  padding: 15% 50px;
   grid-template-rows: 30% 15% 55%;
+  justify-content: center;
+  align-items: center;
 }
 
 .pic {
@@ -314,6 +316,11 @@ section.bottom {
 
 .pic img, .pic .largeTitle, .pic .subtitle {
   margin: 5px 0px;
+}
+
+.pic .subtitle {
+  font-weight: 300;
+  color: #222;
 }
 
 .adBox {
@@ -336,6 +343,7 @@ section.bottom {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  row-gap: 25px;
 }
 
 
