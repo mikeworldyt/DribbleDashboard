@@ -295,4 +295,94 @@ section.bottom {
 /* PROFILE STYLES */
 #profile {
   grid-area: p;
+  background-color: #f9fafb;
+  padding: 0px 100px;
+  grid-template-rows: 30% 15% 55%;
 }
+
+.pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic img {
+  width: 110px;
+  border-radius: 50%;
+}
+
+.pic img, .pic .largeTitle, .pic .subtitle {
+  margin: 5px 0px;
+}
+
+.adBox {
+  border: var(--border);
+  border-radius: var(--borderRadius);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.ad i {
+  border-radius: var(--borderRadius);
+  padding: 12px 15px;
+  box-shadow: 1px 1px 2px lightgrey;
+  color: var(--orange);
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.progressBox {
+  height: 100px;
+  width: 100%;
+  border: var(--border);
+  border-radius: var(--borderRadius);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.grammar .porcent {
+  color: var(--purple);
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.grammar i {
+  background-color: var(--purple);
+}
+
+.dictionary .porcent {
+  color: var(--purple);
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.dictionary i {
+  background-color: var(--orange);
+}
+
+.Reading .porcent {
+  color: var(--purple);
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.Reading i {
+  background-color: var(--red);
+}
+.progressBox i {
+  color: #fff;
+  padding: 20px 18px;
+  border-radius: var(--borderRadius);
+}
+
+
+
